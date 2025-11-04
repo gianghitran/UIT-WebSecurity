@@ -1,0 +1,29 @@
+#!/bin/bash
+
+PORT_LIST_CSV="top-1000-most-popular-tcp-ports-nmap-sorted.csv"
+
+PORTS_FILE="top1000-ports-list.txt"
+
+
+echo "List port"
+awk -F',' '{print $1}' "$PORT_LIST_CSV" | tr '\n' ',' | sed 's/,$//' > "$PORTS_FILE"
+PORTS=$(cat "$PORTS_FILE")
+
+IP_FILE="ips_subdomain_indriver.txt"
+
+
+OUTPUT_CSV="indriver_port_scan_results.csv"
+echo "ip,open_ports" > "$OUTPUT_CSV"
+
+echo "Scaning nmap..."
+while read -r ip; do
+    echo "Scaning  $ip ..."
+    TMP_RESULT=$(mktemp)
+    #open_ports=$(nmap -Pn -n -p "$PORTS" "$ip" | awk '/tcp open/ {printf "%s;", $1}')
+    nmap -Pn -n -p "$PORTS" "$ip" -oG "$TMP_RESULT" > /dev/null 2>&1
+    open_ports=$(grep -oP '\d+/open' "$TMP_RESULT" | cut -d'/' -f1 | tr '\n' ';')
+    #sleep 1
+    echo "$ip,$open_ports" >> "$OUTPUT_CSV"
+done < "$IP_FILE"
+
+echo "Saved: $OUTPUT_CSV"
