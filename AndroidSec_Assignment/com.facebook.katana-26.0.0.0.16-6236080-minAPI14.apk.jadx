@@ -1,0 +1,138 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Files",
+      "Inputs",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "Source code",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "Resources",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "assets",
+      "Resources",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "lib",
+      "assets",
+      "Resources",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ],
+    [
+      "armeabi-v7a",
+      "lib",
+      "assets",
+      "Resources",
+      "com.facebook.katana-26.0.0.0.16-6236080-minAPI14.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "resource",
+      "tabPath": "lib/armeabi-v7a/libdalvikdistract.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "lib/armeabi-v7a/libcryptox.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "lib/armeabi-v7a/libfb_libyuv.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "FBManifest.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "assets/lib/armeabi-v7a/libfb_webrtc_jni.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 8656,
+      "view": {
+        "x": 0,
+        "y": 292
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "cacheDir": "/home/n-muggle/.cache/jadx/projects/com.facebook.katana-26.0.0.0.16-6236080-minAPI14-320ca312140242999c016d6e8cb888a6",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}

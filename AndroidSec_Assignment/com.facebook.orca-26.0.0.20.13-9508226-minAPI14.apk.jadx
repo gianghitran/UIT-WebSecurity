@@ -1,0 +1,16 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com.facebook.orca-26.0.0.20.13-9508226-minAPI14.apk"
+  ],
+  "treeExpansions": [],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [],
+  "cacheDir": "/home/n-muggle/.cache/jadx/projects/com.facebook.orca-26.0.0.20.13-9508226-minAPI14-c9fe6e0e0f949adb28022400159d4b36",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}
